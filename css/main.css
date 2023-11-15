@@ -181,10 +181,12 @@
   width: 100%;
   height: 100%;
   position: relative;
+  top: 0;
+  left: 0;
 }
 .application::before {
   content: '';
-  background: rgba(0, 0, 0, 0.1);
+  background: rgba(0, 0, 0, 0.5);
   position: absolute;
   width: 100%;
   height: 100%;
@@ -265,6 +267,54 @@ textarea.application__input {
 }
 .application__btn:hover {
   background: var(--bbb);
+}
+/* ****************** */
+.application__block {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 50px;
+}
+.application__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 400;
+  width: 280px;
+  height: 55px;
+  color: var(--st);
+  border: 1px solid var(--st);
+  border-radius: 8px;
+  position: relative;
+}
+.application__link i {
+  margin-right: 8px;
+  font-size: 32px;
+}
+.application__link-telegram {
+  background: #005e91;
+}
+.application__link-telegram:hover {
+  background: #005380;
+  border-color: #005e91;
+}
+.application__link-telegram i {
+  color: #2AABEE;
+}
+.application__link-whatsapp:hover {
+  background: #006813;
+  border-color: #008318;
+}
+.application__link-whatsapp {
+  background: #008318;
+}
+.application__link-whatsapp i {
+  color: #25D366;
+}
+.application__subtitle {
+  font-weight: 400;
 }
 /* ====== ÐœÐµÐ´Ð¸Ð° 1140px ====== */
 @media (max-width: 1140px) {
