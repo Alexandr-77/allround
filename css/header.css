@@ -216,6 +216,9 @@ button {
   margin-bottom: 20px;
   border-bottom: 1px solid #ccc;
   padding: 20px 0;
+  position: relative;
+  z-index: 5;
+
 }
 .header__top-tel {
   display: flex;
@@ -454,7 +457,7 @@ button {
     flex-direction: column;
     padding-bottom: 25px;
     gap: 45px 0;
-    margin-top: 35px;
+    margin-top: 105px;
   }
   .header__block-logo {
     margin-right: 0;
@@ -476,7 +479,7 @@ button {
     width: 100%;
     min-height: 100vh;
     height: auto;
-    top: 82px;
+    top: 0px;
     left: 0;
     padding: 0 15px;
     background: var(--bg-dark);
@@ -531,9 +534,6 @@ button {
   .header__block {
     padding: 5px 0;
   }
-  .header__block-nav {
-    top: 76px;
-  }
   .header__bottom-image {
     width: 50px;
   }
@@ -547,9 +547,6 @@ button {
   }
   .header__box-bottom a {
     font-size: 22px;
-  }
-  .header__block-nav {
-    top: 66px;
   }
   .header__main-btn {
     font-size: 16px;
@@ -576,9 +573,6 @@ button {
   }
   .header__logo-boxtext h2 {
     font-size: 19px;
-  }
-  .header__block-nav {
-    top: 58px;
   }
   .header__main h2 {
     font-size: 16px;
